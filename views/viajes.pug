@@ -1,0 +1,9 @@
+extends ./layout/index
+
+block contenido
+    //Passem informació desde l'arxiu de index.js on definim les vistes
+    h1(class="text-center") #{pagina}
+    main.container.mt-5   
+        .row.proximos-viajes
+            //la consula a la bd ens torna un array. PUG deixa iterar de la següent manera:
+            include ./layout/bloque_viajes
