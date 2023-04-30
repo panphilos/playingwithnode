@@ -1,10 +1,11 @@
 import express from 'express';
 import router from './routes/index.js';
 import db from './config/db.js';
+//per a que funcionin els mòduls, ho hem d'indicar en el 'pacakage.json'.
 
 
 
-//dotenv.config(); Si afegim el "/config" després de dotenv, no cal afegir això.
+//dotenv.config(); S afegim el "/config" després de dotenv, no cal afegir això.
 
 //const express = require('express'); //Sintaxi common.js. js no soporta aquesta sintaxi de forma nativa. Js només soporta moduls. 
                                     //importem Express
